@@ -1,12 +1,12 @@
 export const addAnswer = (answer) => {
   return {
     type: "ADD_ANSWER",
-    answer
+    answer,
   }
 }
 
 const answerReducer = (state = [], action) => {
-  switch(action.type) {
+  switch (action.type) {
     case "ADD_ANSWER":
       return state.concat(action.answer)
     case "RESET_ANSWERS":

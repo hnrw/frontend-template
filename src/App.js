@@ -1,18 +1,15 @@
+import React from "react"
 import { Container } from "@material-ui/core"
-import {
-  BrowserRouter as Router,
-  Switch, Route, Link
-} from "react-router-dom"
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 
 import Component from "./components/Component"
+
 const App = () => {
   return (
     <Container>
       <Router>
         <Switch>
-          <Route path="/test">
-
-          </Route>
+          <Route path="/test">hello</Route>
           <Route path="/">
             <Component />
           </Route>
@@ -22,4 +19,4 @@ const App = () => {
   )
 }
 
-export default App;
+export default App

@@ -2,6 +2,7 @@ import React from "react"
 import { Container } from "@material-ui/core"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 
+
 import Component from "./components/Component"
 
 const App = () => {
